@@ -4,5 +4,4 @@ model/
 *.bin
 *.pt
 *.pkl
-*.csv
 *.zip
