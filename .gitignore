@@ -1,0 +1,8 @@
+olist-env/
+# Prevent large files from being committed
+model/
+*.bin
+*.pt
+*.pkl
+*.csv
+*.zip
