@@ -1,0 +1,12 @@
+credentials:
+  usernames:
+    admin:
+      email: st124956@ait.asia
+      name: Lu Kyaw
+      password: "$2b$12$cNChLWjly0ksRBNlMrnIQOv9NnPs2EJnUwR3RZkKg52QMEr06n.Cy"
+cookie:
+  expiry_days: 30
+  key: olist_ecommerce_2025_key
+  name: olist_app_cookie
+preauthorized:
+  emails: []

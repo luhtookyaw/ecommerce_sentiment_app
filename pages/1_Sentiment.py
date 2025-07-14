@@ -2,6 +2,16 @@ import streamlit as st
 import pandas as pd
 from utils.plots import plot_sentiment_distribution, plot_topic_vs_sentiment
 from utils.load_model import predict_sentiment
+from utils.auth import get_authenticator
+
+# --- AUTHENTICATION ---
+authenticator = get_authenticator()
+name, authentication_status, username = authenticator.login(location="main")
+
+if authentication_status != True:
+    st.stop()
+
+authenticator.logout("Logout", "sidebar")
 
 # --- Page Config ---
 st.set_page_config(page_title="Sentiment Analysis", layout="wide")

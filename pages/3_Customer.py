@@ -2,6 +2,16 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from utils.auth import get_authenticator
+
+# --- AUTHENTICATION ---
+authenticator = get_authenticator()
+name, authentication_status, username = authenticator.login(location="main")
+
+if authentication_status != True:
+    st.stop()
+
+authenticator.logout("Logout", "sidebar")
 
 st.set_page_config(page_title="Customer Insights", layout="wide")
 st.title("👤 Customer Behavior & Satisfaction Dashboard")
