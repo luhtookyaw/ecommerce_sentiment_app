@@ -16,7 +16,7 @@ st.title("📥 Power BI Dashboard")
 
 components.html(
     """
-    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiNzM0NDdkY2ItZjM2Yy00OTQzLWE0OGYtYTkyMmJiMDAxM2YzIiwidCI6Ijk5ZWViMDA5LWU3YTItNDdiNi05ZGVkLTAyOGNkY2MzMDBlNiIsImMiOjEwfQ%3D%3D" width="100%" height="600px" style="border:none;"></iframe>
+    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZDJlYWI1NjctODc3Ny00YjhlLTk3ZGItYmFhMDc4MDY3MDRkIiwidCI6Ijk5ZWViMDA5LWU3YTItNDdiNi05ZGVkLTAyOGNkY2MzMDBlNiIsImMiOjEwfQ%3D%3D" width="100%" height="600px" style="border:none;"></iframe>
     """,
     height=600,
 )
