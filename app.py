@@ -22,3 +22,9 @@ Use the sidebar to navigate between:
 - **Customer Behavior**
 - **Product Insights**
 """)
+
+if st.button("Go to Dashboard 1"):
+    st.markdown("Redirecting... [Click here](https://app.powerbi.com/view?r=eyJrIjoiYmE5N2FkOWItZTE3Mi00NDU5LTllYjQtNTQwNGY0YzZhMmQ4IiwidCI6Ijk5ZWViMDA5LWU3YTItNDdiNi05ZGVkLTAyOGNkY2MzMDBlNiIsImMiOjEwfQ%3D%3D)", unsafe_allow_html=True)
+
+if st.button("Go to Dashboard 2"):
+    st.markdown("Redirecting... [Click here](https://app.powerbi.com/view?r=eyJrIjoiNzM0NDdkY2ItZjM2Yy00OTQzLWE0OGYtYTkyMmJiMDAxM2YzIiwidCI6Ijk5ZWViMDA5LWU3YTItNDdiNi05ZGVkLTAyOGNkY2MzMDBlNiIsImMiOjEwfQ%3D%3D)", unsafe_allow_html=True)
