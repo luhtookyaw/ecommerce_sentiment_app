@@ -13,7 +13,7 @@ if authentication_status != True:
 
 authenticator.logout("Logout", "sidebar")
 
-st.set_page_config(page_title="Delivery Performance", layout="wide")
+st.set_page_config(page_title="Delivery Performance", page_icon="images/images__1_-removebg-preview.png", layout="wide")
 st.title("🚚 Delivery Performance Dashboard")
 
 # --- Load Data ---

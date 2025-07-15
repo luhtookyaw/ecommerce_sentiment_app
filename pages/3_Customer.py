@@ -13,7 +13,7 @@ if authentication_status != True:
 
 authenticator.logout("Logout", "sidebar")
 
-st.set_page_config(page_title="Customer Insights", layout="wide")
+st.set_page_config(page_title="Customer Insights", page_icon="images/images__1_-removebg-preview.png", layout="wide")
 st.title("👤 Customer Behavior & Satisfaction Dashboard")
 
 # --- Load Data ---

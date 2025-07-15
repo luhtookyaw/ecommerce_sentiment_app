@@ -13,7 +13,7 @@ if authentication_status != True:
 
 authenticator.logout("Logout", "sidebar")
 
-st.set_page_config(page_title="Product Analysis", layout="wide")
+st.set_page_config(page_title="Product Analysis", page_icon="images/images__1_-removebg-preview.png", layout="wide")
 st.title("📦 Product Category Insights")
 
 # --- Load Data ---

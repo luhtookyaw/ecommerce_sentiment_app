@@ -14,7 +14,7 @@ if authentication_status != True:
 authenticator.logout("Logout", "sidebar")
 
 # --- Page Config ---
-st.set_page_config(page_title="Sentiment Analysis", layout="wide")
+st.set_page_config(page_title="Sentiment Analysis", page_icon="images/images__1_-removebg-preview.png", layout="wide")
 st.title("🧠 Sentiment Analysis: Dashboard & Predictor")
 
 # --- Load Data ---

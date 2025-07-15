@@ -11,7 +11,7 @@ if authentication_status != True:
 
 authenticator.logout("Logout", "sidebar")
 
-st.set_page_config(page_title="Power BI Dashboard", layout="wide")
+st.set_page_config(page_title="Power BI Dashboard", page_icon="images/images__1_-removebg-preview.png", layout="wide")
 st.title("📥 Power BI Dashboard")
 
 components.html(
